@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Roboto', sans-serif;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: linear-gradient(rgba(0,0,0.4),rgba(0,0,0,0.4)), url(GettyImages-882995748-6b61961aafa24822a3d0b33494fce720.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+header .CHEBOLU SADVIKA {
+   position: relative;
+   color: white;
+   font-size: 30px;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 800;
+   letter-spacing: 1px;
+   justify-content: flex-start;
+}
+
+header .navigation a {
+   color: white;
+   text-decoration: none;
+   font-weight: 500;
+   letter-spacing: 1px;
+   padding: 3px 15px;
+   border-radius: 20px;
+   transition: 0.4s;
+   transition-property: background;
+}
+
+header .navigation a:not(:last-child) {
+   margin-right: 10PX;
+   text-align: right;
+}
+
+header .navigation a:hover {
+    background :rgb(195, 10, 170);
+    
+}
+section{
+    width: 1000px;
+    margin: 60px 100px;
+    color: white;
+}
+
+section h2 {
+       color: black;
+       font-size: 55px;
+       text-transform: uppercase;
+       font-weight: 800;
+       letter-spacing: 3px;
+       line-height: 60px;
+       margin-bottom: 30px;
+       font-family: cursive;
+       color: white;
+}
+
+section p {
+    color: rgb(245, 232, 233);
+     font-size: 18px;
+     font-weight: 500;
+     margin-bottom: 40px;
+     text-decoration: none;
+     text-align: justify;
+     font-family: cursive;
+     
+}
+
+section .info a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-left: auto;
+    padding: 30px ;
+    margin-top: 10px;
+    margin-bottom: 10pxs;
+}
+
+section .More Info:hover {
+    background: #0d8bda;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+footer a {
+    position: relative;
+    color: white;
+    font-size: 30px;
+}
+
+footer a:not(:last-child) {
+        margin-right: 60px;
+}
+
+footer a:hover {
+    transform: scale(1.5);
+}
+section .header h2 a{
+
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+}
+.media-icons a{
+    color: white;
+    display: inline;
+    padding: 10px;
+    margin-top: 70PXS;
+    align-content: center;
+
+
+
+
+    
+}
+header .h2.insurance
